@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text_label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Command" />
+    <!--  -->
+    <EditText
+        android:id="@+id/editText_cmd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_label1"
+        android:layout_below="@+id/text_label1"
+        android:ems="50"
+        android:text="/storage/emulated/0/Video/ScreenRecorder/Screenrecord-2017-04-30-00-48-21-307.mp4" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_cmd"
+        android:layout_below="@+id/editText_cmd">
+        <Button
+            android:id="@+id/button_choose"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择视频" />
+
+        <Button
+            android:id="@+id/button_start"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始转换" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/lacuz/lacuzffmpeg/VideoMainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/Android.mk" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/ffmpeg_jni.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/ffmpeg_jni.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/ffmpeg_mod.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/ffmpeg_mod.c" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
